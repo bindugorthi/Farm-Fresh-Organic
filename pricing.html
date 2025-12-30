@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Farm Fresh Organic</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- if you use an external CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #2c6f3e;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .pricing-section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .pricing-section h1 {
+            color: #2c6f3e;
+        }
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            width: 250px;
+            padding: 20px;
+            border: 2px solid #2c6f3e;
+        }
+        .card h2 {
+            color: #2c6f3e;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 28px;
+            color: #2c6f3e;
+            margin: 15px 0;
+        }
+        .features {
+            text-align: left;
+            margin: 15px 0;
+        }
+        .features p {
+            margin: 8px 0;
+        }
+        .btn {
+            background-color: #2c6f3e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #24592f;
+        }
+        footer {
+            background-color: #2c6f3e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farm Fresh Organic</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="product.html">Product</a>
+            <a href="contact.html">Contact</a>
+            <a href="pricing.html">Pricing</a>
+        </nav>
+    </header>
+
+    <section class="pricing-section">
+        <h1>Our Pricing Plans</h1>
+        <div class="pricing-cards">
+            <!-- Basic Plan -->
+            <div class="card">
+                <h2>Basic</h2>
+                <p class="price">₹199 / month</p>
+                <div class="features">
+                    <p>✔ Organic Veg Box</p>
+                    <p>✔ Delivery Weekly</p>
+                    <p>✔ Fresh Seasonal Picks</p>
+                </div>
+                <button class="btn">Choose Plan</button>
+            </div>
+            <!-- Standard Plan -->
+            <div class="card">
+                <h2>Standard</h2>
+                <p class="price">₹349 / month</p>
+                <div class="features">
+                    <p>✔ Organic Veg + Fruits</p>
+                    <p>✔ Delivery Weekly</p>
+                    <p>✔ Seasonal & Exotic</p>
+                </div>
+                <button class="btn">Choose Plan</button>
+            </div>
+            <!-- Premium Plan -->
+            <div class="card">
+                <h2>Premium</h2>
+                <p class="price">₹499 / month</p>
+                <div class="features">
+                    <p>✔ Everything in Standard</p>
+                    <p>✔ Priority Delivery</p>
+                    <p>✔ Surprise Organic Gifts</p>
+                </div>
+                <button class="btn">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Farm Fresh Organic. All rights reserved.
+    </footer>
+</body>
+</html>
